@@ -63,7 +63,7 @@ When the build process is complete. You can find the binary in `snowflake/build/
 ### Windows 64 bit Compiling
 
 ##### Prerequisites
-- Install  [Visual Studio 2017 Community Edition](https://github.com/Snowflake-coin/snowflake/downloads/vs_community.exe)
+- Install  [Visual Studio 2017 Community Edition](https://github.com/Snowflake-coin/snowflake/raw/main/downloads/vs_community.exe)
 - When installing Visual Studio, it is  **required**  that you install  **Desktop development with C++**
 - Install [Boost 1.68](https://bintray.com/boostorg/release/download_file?file_path=1.68.0%2Fbinaries%2Fboost_1_68_0-msvc-14.1-64.exe)
 
