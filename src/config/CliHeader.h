@@ -17,7 +17,7 @@ namespace CryptoNote
         programHeader
             << std::endl
             << asciiArt << std::endl
-            << " " << CryptoNote::CRYPTONOTE_NAME << " v" << PROJECT_VERSION_LONG << std::endl
+            << " " << CryptoNote::CRYPTONOTE_NAME << " v" << PROJECT_VERSION_LONG << " TESTNET" << std::endl
             << std::endl;
 
         return programHeader.str();
