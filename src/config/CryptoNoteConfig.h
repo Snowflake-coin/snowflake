@@ -240,9 +240,9 @@ namespace CryptoNote
   const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT                    = 10000;           // by default, blocks ids count in synchronizing
   const uint64_t BLOCKS_SYNCHRONIZING_DEFAULT_COUNT                        = 20;              // by default, blocks count in blocks downloading
   const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT                     = 1000;
-  const int      P2P_DEFAULT_PORT                                          = 22100;           // P2P Port
-  const int      RPC_DEFAULT_PORT                                          = 22101;           // RPC Port
-  const int      SERVICE_DEFAULT_PORT                                      = 22102;           // Service Port
+  const int      P2P_DEFAULT_PORT                                          = 23100;           // P2P Port
+  const int      RPC_DEFAULT_PORT                                          = 23101;           // RPC Port
+  const int      SERVICE_DEFAULT_PORT                                      = 23102;           // Service Port
   const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                            = 1000;
   const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                             = 5000;
 
@@ -281,7 +281,7 @@ namespace CryptoNote
   const std::string LICENSE_URL                                            = "https://github.com/Snowflake-coin/snowflake/blob/master/LICENSE";
 
   const static boost::uuids::uuid CRYPTONOTE_NETWORK = {
-    {0x27, 0xb1, 0x40, 0x42, 0xa1, 0x8a, 0xdd, 0x24, 0xeb, 0x99, 0x6f, 0x1a, 0xca, 0x80, 0x21, 0x9b}
+    {0x20, 0xa1, 0x60, 0x45, 0xc1, 0x2a, 0x2d, 0x2d, 0xe1, 0x11, 0x6d, 0x24, 0xaa, 0x20, 0x81, 0x9d}
   };
 
   const char *const SEED_NODES[] = {
